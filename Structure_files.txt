@@ -1,0 +1,33 @@
+SSL-COCRYSTAL/
+│
+├── README.md
+├── requirements.txt
+├
+│
+├
+│
+├── examples/                  
+│   ├── example_pair.py        
+│   ├── Test_GAT_versions.py            
+│   ├── finetune_GAT.py            
+│
+├── data/
+│   ├── datasets/
+│   │   ├── df_train_val.csv
+│   │   ├── df_test_dft_full.csv
+│   │   └── test_external.csv
+│   │
+│   ├── models/                ← trained weights (.pth)
+│   ├── Hyperparam_tuning/
+│   └── mordred_feats/
+│
+├── models/
+│   └── models_utils.py
+│
+├── src/
+│   ├── data_processing_utils.py
+│   ├── train_evaluate_utils.py
+│   ├── metrics_utils.py
+│   └── plot_utils.py
+│
+└── results/                   ← auto-created outputs
