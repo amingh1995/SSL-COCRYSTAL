@@ -53,7 +53,7 @@ os.makedirs(SAVE_DIR, exist_ok=True)
 
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 device = "cpu"
-
+batch_size = 1
 
 
 # =============================
